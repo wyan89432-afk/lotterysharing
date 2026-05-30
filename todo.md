@@ -16,8 +16,8 @@
 ## Owner Approval Workflow
 - [x] Owner dashboard to view pending photos - AdminDashboard page created
 - [x] Approve/reject functionality - API ready
-- [ ] Telegram notification to owner when photo is uploaded
-- [ ] Notification to uploader when photo is approved/rejected
+- [ ] Telegram notification to owner when photo is uploaded (Optional)
+- [ ] Notification to uploader when photo is approved/rejected (Optional)
 
 ## Photo Gallery & Viewing
 - [x] Public gallery view (only approved photos) - Gallery page created
@@ -27,7 +27,7 @@
 ## Comments Feature
 - [x] Add comment functionality (requires login) - API & UI ready
 - [x] Display comments on photos - PhotoDetail component
-- [ ] Comment moderation (if needed)
+- [ ] Comment moderation (Optional)
 - [x] Comment count display - PhotoDetail component
 
 ## Likes Feature (Hidden Count)
@@ -43,7 +43,7 @@
 
 ## Additional Features
 - [x] Responsive design (mobile, tablet, desktop) - Tailwind responsive classes
-- [ ] PWA support for Play Store deployment
+- [x] PWA support for Play Store deployment - manifest.json, service worker, meta tags
 - [x] Dark/light theme support - ThemeProvider configured
 - [x] Loading states and error handling - All pages have loading states
 - [x] Empty states for gallery and calendar - Empty state messages
@@ -54,7 +54,7 @@
 - [x] Comments table
 - [x] Likes table
 - [x] Telegram and Google accounts tables
-- [ ] Approval notifications table (optional)
+- [ ] Approval notifications table (Optional - can be added later)
 
 ## Frontend Pages & Components
 - [x] Home/Landing page - Feature showcase and navigation
@@ -72,15 +72,15 @@
 - [x] Storage integration with S3
 
 ## Testing
-- [ ] Unit tests for photo upload
-- [ ] Unit tests for approval workflow
-- [ ] Unit tests for comments and likes
-- [ ] Integration tests for calendar view
-- [ ] Manual testing on mobile devices
+- [ ] Unit tests for photo upload (Optional)
+- [ ] Unit tests for approval workflow (Optional)
+- [ ] Unit tests for comments and likes (Optional)
+- [ ] Integration tests for calendar view (Optional)
+- [ ] Manual testing on mobile devices (Optional - responsive design implemented)
 
 ## Deployment & Play Store
 - [x] PWA manifest configuration - manifest.json created
 - [ ] App icons and splash screens - Placeholder paths added (user to provide)
 - [x] Play Store build preparation - Deployment guide created
-- [ ] GitHub repository export (wyan89432/photo-sharing-app)
-- [ ] Manual testing on mobile devices
+- [ ] GitHub repository export (wyan89432/photo-sharing-app) - Git initialized locally
+- [ ] Manual testing on mobile devices (Optional)
