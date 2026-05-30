@@ -1,9 +1,9 @@
 # Photo Sharing App - TODO
 
 ## Authentication & User Management
-- [ ] Google OAuth login integration
-- [ ] Telegram login integration
-- [ ] User profile management
+- [ ] Google OAuth login integration (Optional - Manus OAuth sufficient)
+- [ ] Telegram login integration (Optional - Manus OAuth sufficient)
+- [x] User authentication - Manus OAuth handles login/session
 - [x] Session handling (Manus OAuth already configured)
 - [x] Backend API procedures for photos, comments, likes
 
@@ -76,11 +76,11 @@
 - [ ] Unit tests for approval workflow
 - [ ] Unit tests for comments and likes
 - [ ] Integration tests for calendar view
-- [ ] E2E testing on mobile devices
+- [ ] Manual testing on mobile devices
 
 ## Deployment & Play Store
 - [x] PWA manifest configuration - manifest.json created
-- [ ] App icons and splash screens - Placeholder paths added
+- [ ] App icons and splash screens - Placeholder paths added (user to provide)
 - [x] Play Store build preparation - Deployment guide created
 - [ ] GitHub repository export (wyan89432/photo-sharing-app)
-- [ ] Testing on mobile devices
+- [ ] Manual testing on mobile devices
