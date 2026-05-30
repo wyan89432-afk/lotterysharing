@@ -79,8 +79,8 @@
 - [ ] E2E testing on mobile devices
 
 ## Deployment & Play Store
-- [ ] PWA manifest configuration
-- [ ] App icons and splash screens
-- [ ] Play Store build preparation
+- [x] PWA manifest configuration - manifest.json created
+- [ ] App icons and splash screens - Placeholder paths added
+- [x] Play Store build preparation - Deployment guide created
 - [ ] GitHub repository export (wyan89432/photo-sharing-app)
 - [ ] Testing on mobile devices
