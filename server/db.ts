@@ -1,6 +1,6 @@
-import { eq } from "drizzle-orm";
+import { eq, and, desc } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
+import { InsertUser, users, photos, comments, likes, InsertPhoto, InsertComment, InsertLike } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -89,4 +89,121 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+// Photo queries
+export async function uploadPhoto(photo: InsertPhoto) {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database not available");
+  }
+  const result = await db.insert(photos).values(photo);
+  return result;
+}
+
+export async function getApprovedPhotos() {
+  const db = await getDb();
+  if (!db) return [];
+  return db
+    .select()
+    .from(photos)
+    .where(eq(photos.approvalStatus, "approved"))
+    .orderBy(desc(photos.uploadedAt));
+}
+
+export async function getPendingPhotos() {
+  const db = await getDb();
+  if (!db) return [];
+  return db
+    .select()
+    .from(photos)
+    .where(eq(photos.approvalStatus, "pending"))
+    .orderBy(desc(photos.uploadedAt));
+}
+
+export async function getPhotoById(photoId: number) {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db
+    .select()
+    .from(photos)
+    .where(eq(photos.id, photoId))
+    .limit(1);
+  return result.length > 0 ? result[0] : undefined;
+}
+
+export async function approvePhoto(photoId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  return db
+    .update(photos)
+    .set({ approvalStatus: "approved", approvedAt: new Date() })
+    .where(eq(photos.id, photoId));
+}
+
+export async function rejectPhoto(photoId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  return db
+    .update(photos)
+    .set({ approvalStatus: "rejected" })
+    .where(eq(photos.id, photoId));
+}
+
+// Comment queries
+export async function addComment(comment: InsertComment) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  return db.insert(comments).values(comment);
+}
+
+export async function getPhotoComments(photoId: number) {
+  const db = await getDb();
+  if (!db) return [];
+  return db
+    .select()
+    .from(comments)
+    .where(eq(comments.photoId, photoId))
+    .orderBy(desc(comments.createdAt));
+}
+
+// Like queries
+export async function toggleLike(photoId: number, userId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  
+  const existing = await db
+    .select()
+    .from(likes)
+    .where(and(eq(likes.photoId, photoId), eq(likes.userId, userId)))
+    .limit(1);
+  
+  if (existing.length > 0) {
+    // Unlike
+    return db
+      .delete(likes)
+      .where(and(eq(likes.photoId, photoId), eq(likes.userId, userId)));
+  } else {
+    // Like
+    return db.insert(likes).values({ photoId, userId });
+  }
+}
+
+export async function getLikeCount(photoId: number) {
+  const db = await getDb();
+  if (!db) return 0;
+  const result = await db
+    .select()
+    .from(likes)
+    .where(eq(likes.photoId, photoId));
+  return result.length > 0 ? result.length : 0;
+}
+
+export async function getUserLikeStatus(photoId: number, userId: number) {
+  const db = await getDb();
+  if (!db) return false;
+  const result = await db
+    .select()
+    .from(likes)
+    .where(and(eq(likes.photoId, photoId), eq(likes.userId, userId)))
+    .limit(1);
+  return result.length > 0;
+}
