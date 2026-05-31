@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://48qVeMaUN2GxLrf.root:cCkSPy27d6Fnr01n1TAd@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/DYkDaAXtftUUP2udhgNRHX?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663709768018/DYkDaAXtftUUP2udhgNRHX",
+    "access_key_id": "ASIAZV3A2ECZNNTH5OVY",
+    "secret_access_key": "ykWIFEsVapP7KzS+SlAvCWi5Hv0WdrkBQhgcfZdt",
+    "session_token": "IQoJb3JpZ2luX2VjEAoaCXVzLWVhc3QtMSJGMEQCIH3xkwnqsquqldTIGheWbVEIdXTwPxtjzcKL5UC2bDlUAiASZz6o2iYfRV7ZvHS6Ib+ZP8GqO2HkjaKYdYDIDfhaIyr/AwjS//////////8BEAQaDDY2NTM4NjA5ODg2NiIMdJJ5JPHOz9CJkI/yKtMDHw4p1rTF0xC5v7QaA2F1q/bcoProbx5wh1WNNG/ZmtCbhnrGJcEJo8r3mLrgIoaQx/IGN7F7J/WkHjugEft/yZ+7H7xNUX7qGLZK17mtNayoSgFY5f7nV6FZI8WMZoB4Dgt892JYPcZUOBGzJBA9HW4eSEna5K2925YnEfJsFybLw4vDkuz0hWZ1ABBBA4eA0RjTI1VKYz3YtSCBMi6KImUUKXMq+zoD7RHls3eFhWNc5OjsbYIaf+apsy1e4nUMkULZWeF6mBfuxJpzi6aCkylpRrZ3pRYROXIDv5poHSZkOiPvReuS5Zvue5lCtO7qnL2xwGkHJh/2dBZ9V0hW0nM/Q5PlAMw3y6rVzL6rfqg/UWgdRsdIUSxOvrgCBfO+zWg99WeACqK73pCIXRAJ7DgAb3UBaRifNiZw1HsKKI+X6OhqNt9oUe8sYwPdSr7YQ7ZrOOr+jqrjWTayaT4K6kf8oXzJ92TL+o1VhKVuJoUSLYFmeJVXQVlKwAB4UkV8A/6td0emZ/BV4NPNWl0uO8vWpyrdSIKKKXdUF80IDmbQT9Ct9W9MApWnSZVb50BoS9Dmk0uAhCLtGagJ7PCN5z1jVRRWGRgY6RCgIod6iaIo/wowzvTo0AY6ngFrd/Vkgv+grjzidXhoqjEwt+0kFX8PFIbe3DV1h5vU1YcBV/ntQ4JVyPPqegaln6MiZDMv3VQdY31mtAz5diPkrLWFkInnbidDiWfvt96AOntKPKCxYv/19hNU14RevJD2AE9UVGn/rhjklhUwf46TLga1C6DrY/z/9ar1Mz11DfK+UltiSJiSHpImBpEN4qbABWw4qhnfeS83X4v4Tw==",
+    "expiration": "2026-05-30T13:15:58.000Z"
+  },
+  "name": "photo-sharing-app",
+  "path": "/home/ubuntu/photo-sharing-app",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "KtDB4WaV3DZ8LKr3tYAhPC",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "jVWQcvRVBjhdMndSSPzKRH",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Aa Bb",
+    "OWNER_OPEN_ID": "JefaNU5RMnE4QBrRAKxcoa",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "d8fe5cd4-ac6e-436f-88a1-2249cb5bb925",
+    "VITE_APP_ID": "DYkDaAXtftUUP2udhgNRHX",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Photo Share \u0026 Calendar App",
+    "VITE_FRONTEND_FORGE_API_KEY": "4HJ5D3wjSdySPpdzkinxMY",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}

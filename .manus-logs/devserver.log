@@ -1,0 +1,136 @@
+[2026-05-30T01:16:08.428Z] Starting dev server with command: pnpm run dev
+[2026-05-30T01:16:10.452Z] > photo-sharing-app@1.0.0 dev /home/ubuntu/photo-sharing-app
+[2026-05-30T01:16:10.452Z] > NODE_ENV=development tsx watch server/_core/index.ts
+[2026-05-30T01:16:11.931Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:16:12.151Z] Server running on http://localhost:3000/
+[2026-05-30T01:16:21.898Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-05-30T01:16:23.050Z] [Auth] Missing session cookie
+[2026-05-30T01:17:06.272Z] 1:17:06 AM [tsx] change in ./drizzle/schema.ts Restarting...
+[2026-05-30T01:17:06.298Z] c
+[2026-05-30T01:17:07.873Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:17:08.123Z] Server running on http://localhost:3000/
+[2026-05-30T01:17:54.850Z] 1:17:54 AM [tsx] change in ./server/db.ts Restarting...
+[2026-05-30T01:17:54.878Z] c
+[2026-05-30T01:17:56.545Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:17:56.768Z] Server running on http://localhost:3000/
+[2026-05-30T01:18:25.314Z] 1:18:25 AM [tsx] change in ./server/routers.ts Restarting...
+[2026-05-30T01:18:25.329Z] c
+[2026-05-30T01:18:26.718Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:18:26.930Z] Server running on http://localhost:3000/
+[2026-05-30T01:18:30.849Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-05-30T01:18:31.817Z] [Auth] Missing session cookie
+[2026-05-30T01:20:22.479Z] 1:20:22 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-05-30T01:20:38.647Z] 1:20:38 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-05-30T01:20:46.108Z] 1:20:46 AM [vite] (client) ✨ new dependencies optimized: @radix-ui/react-dialog
+[2026-05-30T01:20:46.108Z] 1:20:46 AM [vite] (client) ✨ optimized dependencies changed. reloading
+[2026-05-30T01:20:46.715Z] [Auth] Missing session cookie
+[2026-05-30T01:23:16.806Z] 1:23:16 AM [tsx] change in ./server/_core/index.ts Restarting...
+[2026-05-30T01:23:16.850Z] c
+[2026-05-30T01:23:18.490Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:23:18.753Z] 1:23:18 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+[2026-05-30T01:23:18.794Z] Server running on http://localhost:3000/
+[2026-05-30T01:23:22.966Z] 1:23:22 AM [tsx] change in ./server/uploadHandler.ts Restarting...
+[2026-05-30T01:23:23.014Z] c
+[2026-05-30T01:23:24.432Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:23:24.661Z] Server running on http://localhost:3000/
+[2026-05-30T01:23:26.962Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-05-30T01:23:27.987Z] [Auth] Missing session cookie
+[2026-05-30T01:25:22.475Z] 1:25:22 AM [vite] (client) hmr update /src/index.css, /src/components/PhotoDetail.tsx
+[2026-05-30T01:25:40.415Z] 1:25:40 AM [vite] (client) hmr update /src/index.css, /src/components/PhotoDetail.tsx
+[2026-05-30T01:25:56.200Z] 1:25:56 AM [tsx] change in ./server/routers.ts Restarting...
+[2026-05-30T01:25:56.230Z] c
+[2026-05-30T01:25:57.679Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-05-30T01:25:57.921Z] Server running on http://localhost:3000/
+[2026-05-30T01:26:03.762Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-05-30T01:26:04.729Z] [Auth] Missing session cookie
+[2026-05-30T01:26:20.998Z] [Auth] Missing session cookie
+[2026-05-30T01:26:58.029Z] 1:26:58 AM [vite] (client) page reload index.html
+[2026-05-30T01:27:53.589Z] [Auth] Missing session cookie
+[2026-05-30T01:28:29.036Z] [Auth] Missing session cookie
+[2026-05-30T01:29:24.575Z] [Auth] Missing session cookie
+[2026-05-30T01:30:09.331Z] [Auth] Missing session cookie
+[2026-05-31T06:22:29.786Z] 6:22:29 AM [vite] changed tsconfig file detected: /home/ubuntu/photo-sharing-app/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-05-31T06:22:29.792Z] 6:22:29 AM [vite] (client) page reload index.html
+[2026-05-31T06:22:29.792Z] 6:22:29 AM [vite] (client) page reload public/.gitkeep
+[2026-05-31T06:22:29.793Z] 6:22:29 AM [vite] (client) page reload public/__manus__/debug-collector.js
+[2026-05-31T06:22:29.793Z] 6:22:29 AM [vite] (client) page reload public/manifest.json
+[2026-05-31T06:22:29.793Z] 6:22:29 AM [vite] (client) page reload public/sw.js
+[2026-05-31T06:22:29.793Z] 6:22:29 AM [vite] (client) page reload src/App.tsx
+[2026-05-31T06:22:29.793Z] 6:22:29 AM [vite] (client) page reload src/_core/hooks/useAuth.ts
+[2026-05-31T06:22:29.793Z] 6:22:29 AM [vite] (client) page reload src/components/AIChatBox.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/DashboardLayout.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/DashboardLayoutSkeleton.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ErrorBoundary.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ManusDialog.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/Map.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/PhotoDetail.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/accordion.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/alert-dialog.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/alert.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/aspect-ratio.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/avatar.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/badge.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/breadcrumb.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/button-group.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/button.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/calendar.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/card.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/carousel.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/chart.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/checkbox.tsx
+[2026-05-31T06:22:29.794Z] 6:22:29 AM [vite] (client) page reload src/components/ui/collapsible.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/command.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/context-menu.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/dialog.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/drawer.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/dropdown-menu.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/empty.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/field.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/form.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/hover-card.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/input-group.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/input-otp.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/input.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/item.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/kbd.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/label.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/menubar.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/navigation-menu.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/pagination.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/popover.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/progress.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/radio-group.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/resizable.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/scroll-area.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/select.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/separator.tsx
+[2026-05-31T06:22:29.795Z] 6:22:29 AM [vite] (client) page reload src/components/ui/sheet.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/sidebar.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/skeleton.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/slider.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/sonner.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/spinner.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/switch.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/table.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/tabs.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/textarea.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/toggle-group.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/toggle.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/components/ui/tooltip.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/const.ts
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/contexts/ThemeContext.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/hooks/useComposition.ts
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/hooks/useMobile.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/hooks/usePersistFn.ts
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) hmr update /src/index.css
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/lib/trpc.ts
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/lib/utils.ts
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/main.tsx
+[2026-05-31T06:22:29.796Z] 6:22:29 AM [vite] (client) page reload src/pages/AdminDashboard.tsx
+[2026-05-31T06:22:29.797Z] 6:22:29 AM [vite] (client) page reload src/pages/Calendar.tsx
+[2026-05-31T06:22:29.797Z] 6:22:29 AM [vite] (client) page reload src/pages/ComponentShowcase.tsx
+[2026-05-31T06:22:29.797Z] 6:22:29 AM [vite] (client) page reload src/pages/Gallery.tsx
+[2026-05-31T06:22:29.797Z] 6:22:29 AM [vite] (client) page reload src/pages/Home.tsx
+[2026-05-31T06:22:29.798Z] 6:22:29 AM [vite] (client) page reload src/pages/NotFound.tsx
+[2026-05-31T06:22:29.798Z] 6:22:29 AM [vite] (client) page reload src/pages/Upload.tsx
+[2026-05-31T06:22:29.798Z] 6:22:29 AM [vite] (client) page reload /home/ubuntu/photo-sharing-app/shared/const.ts
